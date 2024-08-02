@@ -1,0 +1,31 @@
+# Ignore Python bytecode files
+*.pyc
+__pycache__/
+
+# Ignore environment files
+.env
+
+# Ignore virtual environment directories
+venv/
+env/
+# Ignore media/uploads
+media/
+
+# Ignore log files
+*.log
+
+# Ignore Django specific files
+*.py[cod]
+*.sqlite3
+*.pyo
+.DS_Store
+*.so
+
+# Ignore database files
+*.sqlite3
+
+# Ignore node_modules
+node_modules/
+
+# Ignore Jupyter Notebook files
+*.ipynb
