@@ -90,9 +90,9 @@ def export_expenses_pdf(request):
 
     p = canvas.Canvas(buffer, pagesize=letter)
     width, height = letter
-
+    p.setTitle('Expenses')
     p.setFont("Helvetica-Bold", 14)
-    p.drawString(200, height - 40, "Expense Report")
+    p.drawString(200, height - 40, "Expenses Report")
    
     p.setFont("Helvetica-Bold", 10)
     p.drawString(50, height - 100, "Category")
