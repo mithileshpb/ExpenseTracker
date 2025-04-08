@@ -21,3 +21,13 @@ class Expense(models.Model):
         
     def __str__(self):
         return f'{self.name} - {self.amount}'
+
+
+# set monthly expense limit
+
+class MonthlyExpenseLimit(models.Model):
+    amount = models.DecimalField(max_digits=10, decimal_places=2)
+    month = models.DateField()
+
+    def __str__(self):
+        return f'{self.amount} - {self.month}'
