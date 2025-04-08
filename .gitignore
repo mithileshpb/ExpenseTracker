@@ -16,7 +16,7 @@ media/
 
 # Ignore Django specific files
 *.py[cod]
-*.sqlite3
+# *.sqlite3
 *.pyo
 .DS_Store
 *.so
